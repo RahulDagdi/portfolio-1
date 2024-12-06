@@ -20,7 +20,7 @@ const App = () => {
 
 
 
-<div className='container mx-auto px-8'>
+<div className='container mx-auto px-8 text-justify'>
 
       <Navbar />
       <Hero/>

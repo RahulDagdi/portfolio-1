@@ -24,8 +24,8 @@ const Hero = () => {
   return (
 <>
 
-    <div className="border-b border-neutral-900 pb-4 lg:mb-35  ">
-        <div className='flex flex-wrap'>
+    <div className="border-b border-neutral-900 pb-4 lg:mb-35 ">
+        <div className='flex flex-wrap '>
             <div className='w-full lg:w-1/2'>
                 <div className='flex flex-col items-center lg:items-start'>
                
@@ -38,7 +38,7 @@ const Hero = () => {
             transition={{duration:0.5 }} 
          
             
-                className='pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl'>
+                className='pb-10 text-6xl font-thin tracking-tight lg:mt-10 -mt-12 lg:text-8xl'>
                      Rahul Dagdi 
                 </ motion.h1>
                <motion.span
@@ -51,14 +51,20 @@ initial={{x : -300,Opacity:0 }}
 transition={{duration:1 }} 
   className='bg-gradient-to-t from-pink-300  to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent '> Mern Stack Developer 
   </motion.span>
+
                 <motion.p 
                 //  variants = {container(1)}  
                 //  initial="hidden"
                 //  animate="visible"
- whileInView={{Opacity : 1 , x :0 }}
-initial={{x : -500,Opacity:0 }}
-transition={{duration:1.5 }} 
-                className='my-2 max-w-xl py-6 font-light tracking-tighter '> {HERO_CONTENT}</motion.p>
+              
+                whileInView={{ opacity: 1, x: 0 }}
+                initial={{ x: -500, opacity: 0 }}
+                transition={{ duration: 1.5 }}
+                className="my-2 max-w-full sm:max-w-lg md:max-w-xl lg:max-w-2xl py-6 font-light tracking-tight text-base sm:text-lg md:text-xl lg:text-2xl"
+              >
+                {HERO_CONTENT}
+              </motion.p>
+              
                 
                 </div>
 
@@ -85,7 +91,7 @@ transition={{duration:1.5 }}
        transition={{duration:0.5 }} 
     
        
-       className="ml-0 my-10 bg-blue-100 px-3 py-2 text-2xl rounded-md text-cyan-900  font-bold tracking-tight lg:mt-10 
+       className="ml-0 my-10 bg-blue-100 px-3 py-2 text-2xl rounded-md text-cyan-900  font-bold tracking-tight lg:mt-1 
        hover:bg-blue-400 hover:text-cyan-900 
        
        
@@ -104,6 +110,12 @@ transition={{duration:1.5 }}
         </div>
 
     </div>
+
+
+
+
+
+
       
 </>
   )

@@ -8,7 +8,7 @@ import {  motion } from "framer-motion"
 const Project = () => {
   return (
     <>
-      <div className='border-b border-neutral-900 pb-24'>
+      <div className='border-b border-neutral-900 pb-24 '> 
         <motion.h1
         
         whileInView={{Opacity : 1 , y :0 }}
@@ -31,29 +31,42 @@ const Project = () => {
                 </motion.div>
               </div>
 
-              <motion.div
-              
-              whileInView={{Opacity : 1 , x :0 }}
-              initial={{x : 100,Opacity:0 }}
-              transition={{duration:1.5 }}
 
-              className='w-full lg:w-3/4'>
-                <p className='mb-2 font-semibold'> {project.title} </p>
-                <p className='mb-4 to-neutral-400'> {project.description} </p>
-                <p className='mb-2'>
-                  {project.technologies.map((tech, index) => (
-                    <span key={index} className='mr-3 py-1 px-2 text-sm rounded bg-neutral-700 text-purple-500'>{tech}</span>
-                  ))}
-                </p>
-                <p className='mb-2 mr-3 py-1 px-2 text-sm rounded bg-neutral-700 text-white-500 link'>  <a
-                  href={project.link}
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  className='py-1 px-2 text-sm rounded bg-neutral-700 text-white'
-                >
-                  View Project
-                </a></p>
-              </motion.div>
+
+<motion.div
+  whileInView={{ opacity: 1, x: 0 }}
+  initial={{ x: 100, opacity: 0 }}
+  transition={{ duration: 1.5 }}
+  className="w-full lg:w-3/4 px-4 sm:px-6 lg:px-8"
+>
+  <p className="mb-2 font-semibold text-base sm:text-lg lg:text-xl">{project.title}</p>
+  <p className="mb-4 text-neutral-400 text-sm sm:text-base lg:text-lg">
+    {project.description}
+  </p>
+  <p className="mb-2 flex flex-wrap">
+    {project.technologies.map((tech, index) => (
+      <span
+        key={index}
+        className="mr-3 mb-2 py-1 px-2 text-sm sm:text-base lg:text-lg rounded bg-neutral-700 text-purple-500"
+      >
+        {tech}
+      </span>
+    ))}
+  </p>
+  <p className="mb-2">
+    <a
+      href={project.link}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="py-1 px-2 text-sm sm:text-base lg:text-lg rounded bg-neutral-700 text-white hover:bg-neutral-600"
+    >
+      View Project
+    </a>
+  </p>
+</motion.div>
+
+
+
             </div>
           ))}
         </div>

@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className=" mb-20 flex items-center justify-between py-6">
       <div className="flex flex-shrink-0 items-center">
-        <img className="h-20 bg-red-500 rounded-full mx-2  w-20" src={Logo} alt="RD Logo" />
+        <img className="w-20 rounded-full " src={Logo} alt="RD_Logo" />
 
 
 
@@ -28,18 +28,18 @@ const Navbar = () => {
 
      
   <div className="m-8 flex  items-center justify-center gap-4 text-2xl ">
-        <a href="https://www.linkedin.com" target='_blank'  aria-label="LinkedIn">
+        <a href="https://www.linkedin.com/in/rahul-dagdi-001888214/" target='_blank'  aria-label="LinkedIn">
 
           <IoLogoLinkedin />
         </a>
-        <a href="https://www.github.com" target='_blank'  aria-label="GitHub">
+        <a href="https://github.com/RahulDagdi" target='_blank'  aria-label="GitHub">
           <IoLogoGithub />
         </a>
-        <a href="https://www.twitter.com" target='_blank'  aria-label="X (Twitter)">
+        <a href="https://x.com/RAHULDAGDI1" target='_blank'  aria-label="X (Twitter)">
         <IoLogoTwitter />
 
         </a>
-        <a href="https://www.instagram.com" target='_blank' aria-label="Instagram">
+        <a href="https://www.instagram.com/rahul._.dagdi/" target='_blank' aria-label="Instagram">
           <IoLogoInstagram />
         </a>
       </div> 
