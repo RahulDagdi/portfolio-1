@@ -52,7 +52,7 @@ transition={{duration:1 }}
   className='bg-gradient-to-t from-pink-300  to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent '> Mern Stack Developer 
   </motion.span>
 
-                <motion.p 
+                {/* <motion.p 
                 //  variants = {container(1)}  
                 //  initial="hidden"
                 //  animate="visible"
@@ -63,8 +63,20 @@ transition={{duration:1 }}
                 className="my-2 max-w-full sm:max-w-lg md:max-w-xl lg:max-w-2xl py-6 font-light tracking-tight text-base sm:text-lg md:text-xl lg:text-2xl"
               >
                 {HERO_CONTENT}
-              </motion.p>
-              
+              </motion.p> */}
+
+<motion.p 
+  whileInView={{ opacity: 1, x: 0 }}
+  initial={{ x: -300, opacity: 0 }} // Reduced x-value for better visibility on smaller screens
+  transition={{ duration: 1.5 }}
+  className="my-2 max-w-full sm:max-w-lg md:max-w-xl lg:max-w-2xl py-6 font-light tracking-tight text-base sm:text-lg md:text-xl lg:text-2xl"
+>
+  {HERO_CONTENT}
+</motion.p>
+
+
+
+
                 
                 </div>
 
