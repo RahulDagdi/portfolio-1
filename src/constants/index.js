@@ -90,7 +90,7 @@ export const PROJECTS = [
   },
  
   {
-    title: "Calculator",
+    title: "Design Web Page",
     image: project4,
     description:
       "Basic Front-End Design Web Page is a clean, responsive single-page layout created with HTML, CSS, and Bootstrap. This web page features a structured, organized layout with a navigation bar, hero section, content sections, and footer. Bootstrap is used to ensure mobile-friendly responsiveness, enabling the layout to adjust seamlessly across different screen sizes. Custom CSS enhances the styling, creating a modern, professional appearance with well-defined typography, color schemes, and spacing. This project highlights foundational front-end skills in designing accessible and visually appealing web pages.",
