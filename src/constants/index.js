@@ -40,7 +40,7 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Book Store WebSite",
+    title: "Book Store WebSite [Work in Progress]",
     image: project5,
     description:
       " The Book Store is an e-commerce application developed using React.js, Tailwind CSS, React-Redux, Node.js, Express.js, and MongoDB Atlas. It offers a modern interface for browsing and purchasing books, complete with a dynamic cart and secure checkout. The app features responsive design, efficient state management, and seamless server-client integration for an enhanced shopping experience. ",
@@ -51,7 +51,7 @@ export const PROJECTS = [
   },
 
   {
-    title: "Blog WebSite",
+    title: "Blog WebSite [Work in Progress]",
     image: project6,
     description:
       " The Blog Web Page is a full-stack application built with React.js, CSS, Node.js, Express.js, and MongoDB Atlas. It allows users to create, edit, and manage blog posts with a sleek and responsive design. The front-end ensures smooth navigation, while the back-end handles secure data management and API requests. This project highlights expertise in full-stack development and user-centric design.  ",
