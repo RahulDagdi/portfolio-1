@@ -4,14 +4,24 @@ import project3 from "../assets/projects/calculator.png";
 import project4 from "../assets/projects/webPage.png";
 import project5 from "../assets/projects/BookStore.webp";
 import project6 from "../assets/projects/Blog-Website.png";
+import project7 from "../assets/projects/LaxParking.png";
+import project8 from "../assets/projects/KiteCareers.png";
+import project9 from "../assets/projects/RdxShow.png";
 
 
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With  6 months of hands-on experience, I have honed my skills in front-end technologies like HTML CSS Javascript and React  as well as back-end technologies like Node.js, Express and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With  1.5 Year  of hands-on experience, I have honed my skills in front-end technologies like HTML CSS Javascript and React with Bootstrap and Tailwind Css as well as back-end technologies like Node.js, Express and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 6 months of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 1.5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
+     {
+  year: "2025 December - Present",
+  role: "Frontend Web Developer",
+  company: "SoftHunters Pvt Ltd",
+  description: `Leading the development of responsive and user-centric web applications, focusing on building scalable frontend architectures and delivering high-performance user experiences. Collaborating closely with UI/UX designers, backend developers, and stakeholders to translate business requirements into interactive, accessible, and maintainable interfaces. Implementing modern best practices, optimizing application performance, and ensuring cross-browser compatibility across multiple devices.`,
+  technologies: ["HTML5", "CSS3", "JavaScript", "React.js", "Next.js", "Tailwind CSS" , "Bootstrap", "REST APIs", "Git"]
+},
 
   {
       year:"0 - 6 Months" ,   // "2024 - Present"
@@ -33,22 +43,43 @@ export const EXPERIENCES = [
       company:"Grass solution as a Trainee",
       description: `Led a team in developing software solutions with C++, focusing on optimizing performance-critical applications and implementing complex data structures and algorithms. Integrated system-level features and collaborated closely with stakeholders to define project requirements, design system architecture, and establish deliverable timelines..`,
       technologies: ["OS", "Compilers"] ,
-    },
-
-
+    }, 
+  
 ];
 
 export const PROJECTS = [
-  {
-    title: "Book Store WebSite [Work in Progress]",
-    image: project5,
-    description:
-      " The Book Store is an e-commerce application developed using React.js, Tailwind CSS, React-Redux, Node.js, Express.js, and MongoDB Atlas. It offers a modern interface for browsing and purchasing books, complete with a dynamic cart and secure checkout. The app features responsive design, efficient state management, and seamless server-client integration for an enhanced shopping experience. ",
+{
+  title: "LaxParking",
+  image: project7,
+  description:
+    "LaxParking is an airport parking booking website that allows travelers to easily reserve secure parking spaces near the airport. The platform provides real-time availability, flexible booking options, and a smooth reservation process. It features a responsive design, user-friendly interface, booking management system, and secure payment integration to ensure a seamless experience for customers planning their trips.",
 
-    technologies: ["REACT.JS", "TAILWIND CSS", "REACT-REDUX","NODE.JS","EXPRESS.JS","MONGODB-ATLAS"],
+  technologies: ["HTML5", "CSS3", "JavaScript", "Bootstrap", "PHP", "Laravel"],
 
-    link : "   ",
-  },
+  link: "https://laxparking.com/",
+},
+{
+  title: "Kite Careera",
+  image: project8,
+  description:
+    "Kite Careera is an educational platform offering a wide range of online courses and interactive learning resources. Users can enroll in courses, access structured study materials, and take quizzes to test their knowledge. The website includes user authentication, course management, quiz modules, and a responsive interface to provide an engaging and accessible learning experience.",
+
+  technologies: ["HTML5", "CSS3", "JavaScript", "Bootstrap", "PHP", "Laravel"],
+
+  link: "https://kites.thesunflowerresort.org",
+},
+
+{
+  title: "Movie Ticket Booking WebSite[Work in Progress]",
+  image: project9,
+  description:
+    "Movie Ticket Booking Website is a modern full-stack web application that allows users to explore the latest movies, view detailed information, check show timings, and book tickets online. The platform integrates TMDB REST APIs to fetch real-time movie data including posters, ratings, and overviews. It features secure user authentication using Clerk, interactive seat selection, and a responsive UI built with React.js and Tailwind CSS. The backend is powered by Node.js and Express.js with MongoDB Atlas for efficient data management. This project is currently under development with upcoming features like payment gateway integration and booking history dashboard.",
+
+
+ technologies: ["REACT.JS", "Tailwind CSS" ,"NODE.JS","EXPRESS.JS","MONGODB-ATLAS" , "REST APIs TMDB", "Clerk - User Authentication"],
+
+  link: " ",
+},
 
   {
     title: "Blog WebSite [Work in Progress]",
