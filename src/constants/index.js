@@ -7,12 +7,29 @@ import project6 from "../assets/projects/Blog-Website.png";
 import project7 from "../assets/projects/LaxParking.png";
 import project8 from "../assets/projects/KiteCareers.png";
 import project9 from "../assets/projects/RdxShow.png";
+import project10 from "../assets/projects/YogVeda.png";
+import project11 from "../assets/projects/RTLabs.png";
+import project12 from "../assets/projects/Medurance.png";
+import project13 from "../assets/projects/GroverCloths.png";
+import project14 from "../assets/projects/WebScraping.png";
+
 
 
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With  1.5 Year  of hands-on experience, I have honed my skills in front-end technologies like HTML CSS Javascript and React with Bootstrap and Tailwind Css as well as back-end technologies like Node.js, Express and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 1.5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+// export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 1.5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `Hi, I'm a Full Stack Developer with 1.5+ years of experience crafting efficient, user-friendly web applications. I specialize in building end-to-end solutions using React, Next.js, Node.js, Express, and MongoDB — turning ideas into fast, functional, and visually engaging products.
+
+My journey into development started with a simple curiosity — wondering how the websites I used every day actually worked. That curiosity turned into a passion, and today I love the entire process of building software: designing clean architectures, writing maintainable code, and creating interfaces that feel smooth and intuitive to use.
+
+I've worked across the full stack — from designing databases and building RESTful APIs, to integrating payment gateways like Razorpay and Stripe, to crafting responsive, animated UIs with Tailwind CSS and Framer Motion. I enjoy taking complex problems and breaking them down into clean, working solutions.
+
+I thrive in collaborative environments, love learning new technologies, and I'm always looking for ways to grow as a developer. When I'm not coding, you'll find me staying active, exploring new tools, or contributing to open-source projects.`;
+
+
+
+
 
 export const EXPERIENCES = [
      {
@@ -48,7 +65,35 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+   
+
 {
+  title: "YogVeda",
+  image: project10,
+  description:
+    "YogVeda is a comprehensive AI-powered health and wellness platform designed to promote a healthier lifestyle through yoga, fitness, and personalized care. The platform offers AI chatbot assistance, mood detection, QR code scanning, diet plans, yoga guidance, health blogs, subscription plans, secure online payments, and an intuitive admin dashboard. Built with a modern responsive interface, YogVeda delivers a seamless experience across web and mobile devices while helping users track and improve their overall well-being.",
+
+  technologies: [
+    "React.js",
+    "React Native",
+    "Expo",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "JavaScript",
+    "Tailwind CSS",
+    "FastAPI",
+    "Python",
+    "JWT",
+    "Razorpay"
+  ],
+
+  link: "#",
+},
+
+
+
+  {
   title: "LaxParking",
   image: project7,
   description:
@@ -58,6 +103,10 @@ export const PROJECTS = [
 
   link: "https://laxparking.com/",
 },
+
+
+
+
 {
   title: "Kite Careera",
   image: project8,
@@ -66,7 +115,47 @@ export const PROJECTS = [
 
   technologies: ["HTML5", "CSS3", "JavaScript", "Bootstrap", "PHP", "Laravel"],
 
-  link: "https://kites.thesunflowerresort.org",
+  link: "https://kitecareers.com/",
+},
+
+
+
+
+{
+  title: "RT-Labs",
+  image: project11,
+  description:
+    "RT-Labs is a fully responsive and animated company website built to deliver a smooth, modern browsing experience. The platform features fluid UI animations, interactive user experiences, and reusable, well-optimized components, ensuring consistent performance and a polished look across all devices.",
+  technologies: ["React.js", "JavaScript (ES6+)", "Tailwind CSS", "Framer Motion"],
+  link: "https://rt-labs-rwtl.vercel.app/",
+},
+
+
+{
+  title: "Medurance Admin Panel",
+  image: project12,
+  description:
+    "Medurance Admin Panel is a live Hospital Management System admin dashboard built to streamline hospital and patient data management. It features dynamic data fetching through REST APIs, client-requested feature enhancements, and improved modules for better overall system performance and usability.",
+  technologies: ["React.js", "Material UI", "JavaScript (ES6+)", "REST APIs"],
+  link: "https://admin.medurance.in/",
+},
+
+{
+  title: "Grover Cloth Store",
+  image: project13,
+  description:
+    "Grover Cloth Store is a responsive e-commerce website built from scratch, offering a clean shopping experience with reusable components and structured, maintainable code. The platform focuses on smooth user experience and mobile-friendly performance across devices.",
+  technologies: ["HTML5", "CSS3", "JavaScript", "Bootstrap 5"],
+  link: "https://www.groverclothstore.com/",
+},
+
+{
+  title: "Web Scraping Dashboard",
+  image: project14,
+  description:
+    "Web Scraping Dashboard is a scalable data automation tool that extracts, processes, and manages data from multiple web sources. It includes an interactive Streamlit dashboard for data visualization, filtering, and export, along with automated collection workflows that improve efficiency and data accuracy for analysis and reporting.",
+  technologies: ["Python", "Streamlit", "BeautifulSoup", "Requests", "Pandas"],
+  link: "https://propscrape-rdx.streamlit.app/",
 },
 
 {
@@ -79,6 +168,18 @@ export const PROJECTS = [
  technologies: ["REACT.JS", "Tailwind CSS" ,"NODE.JS","EXPRESS.JS","MONGODB-ATLAS" , "REST APIs TMDB", "Clerk - User Authentication"],
 
   link: " ",
+},
+
+
+{
+  title: "Book Store",
+  image: project5,
+  description:
+    "Book Store is a responsive e-commerce style web application that allows users to browse, search, and explore a wide collection of books across different genres. The platform offers a clean and intuitive interface, category-based browsing, book detail views, and a smooth shopping-like experience, making it easy for users to discover and select their favorite books.",
+
+  technologies: ["REACT.JS", "Tailwind CSS" ,"NODE.JS","EXPRESS.JS","MONGODB" , "ADMIN PANEL", "JWT"],
+
+  link: "#",
 },
 
   {
